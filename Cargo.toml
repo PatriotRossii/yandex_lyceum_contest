@@ -8,3 +8,7 @@ edition = "2018"
 
 [dependencies]
 
+[[bin]]
+path = "src/04_12_2019-10_12_2019/main.rs"
+name = "minerals"
+
