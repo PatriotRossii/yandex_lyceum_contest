@@ -12,3 +12,6 @@ edition = "2018"
 path = "src/04_12_2019-10_12_2019/main.rs"
 name = "minerals"
 
+[[bin]]
+path = "src/11_12_2019-17_12_2019/main.rs"
+name = "open_key"
