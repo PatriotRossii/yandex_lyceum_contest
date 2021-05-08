@@ -15,3 +15,7 @@ name = "minerals"
 [[bin]]
 path = "src/11_12_2019-17_12_2019/main.rs"
 name = "open_key"
+
+[[bin]]
+path = "src/18_12_2019-24_12_2019/main.rs"
+name = "row"
