@@ -19,3 +19,7 @@ name = "open_key"
 [[bin]]
 path = "src/18_12_2019-24_12_2019/main.rs"
 name = "row"
+
+[[bin]]
+path = "src/25_12_2019-31_12_2019/main.rs"
+name = "fucking_contests"
