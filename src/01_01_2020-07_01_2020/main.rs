@@ -1,3 +1,9 @@
+/* 
+В деревню на отдых приехали N детей. Дети очень любят
+собирать грибы, а есть не любят, поэтому они готовы раздать
+все собранные грибы деревенским бабушкам, которые их засолят на зиму. Но каждый из детей хочет отдать каждой бабушке одинаковое количество своих грибов. Найдите наибольшее возможное количество бабушек, которые получат грибы на засолку. 
+*/
+
 pub fn gcd(mut u: u64, mut v: u64) -> u64 {
     use std::cmp::min;
     use std::mem::swap;
@@ -46,10 +52,10 @@ pub fn main() {
     buffer.clear();
     std::io::stdin().read_line(&mut buffer).expect("Failed to read a line");
 
-    let mut values = buffer.split(' ').map(|x| x.parse::<u64>().expect("Please, enter valid count of mushrooms"));
+    let mut values = buffer.trim().split(' ').map(|x| x.parse::<u64>().expect("Please, enter valid count of mushrooms"));
     let accumulator = values.next().unwrap();
     
-    values.fold(accumulator, |acc, x| {
+    println!("{}", values.fold(accumulator, |acc, x| {
         gcd(acc, x)
-    });
+    }));
 }
