@@ -23,3 +23,7 @@ name = "row"
 [[bin]]
 path = "src/25_12_2019-31_12_2019/main.rs"
 name = "fucking_contests"
+
+[[bin]]
+path = "src/01_01_2020-07_01_2020/main.rs"
+name = "mushrooms"
